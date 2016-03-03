@@ -5,8 +5,6 @@ import org.scalatest.FunSuite
 import org.scalatest.BeforeAndAfter
 import org.scalatest.junit.JUnitRunner
 
-import com.scala.example.regex.RegexLineParser;
-
 @RunWith(classOf[JUnitRunner])
 class RegexSuite extends FunSuite with BeforeAndAfter {
 

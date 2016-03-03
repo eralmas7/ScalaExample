@@ -1,10 +1,7 @@
 package com.scala.example.regex
 
 import scala.io.Source
-
 import java.io.Writer
-
-import com.scala.example.regex.RegexLineParser;
 
 trait RegexParser {
   def createHtml(inputFileName: String): List[String];
