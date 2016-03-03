@@ -1,0 +1,10 @@
+To run this application, you would need to run it as:
+
+java -jar <path to ScalaExample-<version>-jar-with-dependencies.jar> <input file> [<output file>]
+
+Assumptions:
+1. Its assumed that empty line in input is ignored.
+2. If input file is not present, you would get an exception.
+3. Input file is a mandatory parameter. If its not passed in command line, you would get an exception.
+4. For header tags, it's assumed that line would start with a hash (#) and it won't start with a space.
+5. Logging if any is done on console i.e. Standard output.
